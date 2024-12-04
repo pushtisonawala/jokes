@@ -1,0 +1,69 @@
+/* General Reset */
+body {
+  font-family: 'Comic Sans MS', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f9fc;
+}
+
+/* App Container */
+.app-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.app-header {
+  text-align: center;
+  background-color: #0078d7;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 12px 12px 0 0;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.app-header p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+  font-style: italic;
+}
+
+/* Jokes List */
+.jokes-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.joke-item {
+  background-color: #e0f7fa;
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border-left: 6px solid #00796b;
+  font-size: 1.2rem;
+  color: #333333;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.joke-item:hover {
+  background-color: #b2ebf2;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+/* Footer for Fun */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666666;
+}
