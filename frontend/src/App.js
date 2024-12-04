@@ -1,19 +1,19 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css'; // Import CSS for styling
+import './App.css'; 
 
 function App() {
-  const [jokes, setJokes] = useState([]); // State to hold jokes
+  const [jokes, setJokes] = useState([]); 
 
   useEffect(() => {
-    // Fetch jokes from the backend
+   
     axios
       .get('/jokes')
       .then((response) => {
-        setJokes(response.data); // Set the fetched jokes to state
+        setJokes(response.data); 
       })
       .catch((error) => {
-        console.error('Error fetching jokes:', error); // Log any errors
+        console.error('Error fetching jokes:', error); 
       });
   }, []);
 
